@@ -2,8 +2,9 @@
 Rancher v2 CLI with kubectl
 
 ## Supported tags and respective Dockerfile links
+* `v2.4.10-k8s1.18.19`, `latest`
 * `v2.4.10` ([v2.4.10/Dockerfile](https://github.com/mheiniger/rancher-cli-k8s/blob/cliv2.4.10/Dockerfile))
-* `v2.2.0`, `latest` ([v2.2.0/Dockerfile](https://github.com/mheiniger/rancher-cli-k8s/blob/cliv2.2.0/Dockerfile))
+* `v2.2.0` ([v2.2.0/Dockerfile](https://github.com/mheiniger/rancher-cli-k8s/blob/cliv2.2.0/Dockerfile))
 * `v2.0.2` ([v2.0.2/Dockerfile](https://github.com/mheiniger/rancher-cli-k8s/blob/v2.0.2/Dockerfile))
 
 
