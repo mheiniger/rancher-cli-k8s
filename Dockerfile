@@ -1,4 +1,4 @@
-FROM lachlanevenson/k8s-kubectl:v1.20.15 AS k8scli
+FROM lachlanevenson/k8s-kubectl:v1.21.12 AS k8scli
 
 FROM rancher/cli2:v2.4.11
 
