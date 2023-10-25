@@ -4,4 +4,7 @@ FROM rancher/cli2:v2.4.11
 
 COPY --from=k8scli /usr/local/bin/kubectl /usr/local/bin
 
+# If you run the container with `docker run --user ...` rancher cli tries to write to /.rancher/
+RUN mkdir /.rancher && chmod 777 /.rancher
+
 ENTRYPOINT []
